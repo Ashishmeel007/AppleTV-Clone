@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>header or nav bar</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 <body>
    
@@ -31,22 +32,27 @@
     </section>
 
     <div class="heading-element1"><p>Watch Premieres for Free</p></div>
-    <div class="featured_element">
-        <div class="inner_element">
-            <img src="https://is3-ssl.mzstatic.com/image/thumb/AWDRdQz0nepFpnsUNiTDuw/738x416.webp" alt="">
-            <img src="https://is2-ssl.mzstatic.com/image/thumb/78-I7VenST4ztZYfwMf6AQ/738x416.webp" alt="">
-            <img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/738x416.webp" alt="">
-            <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/738x416.webp" alt="">
-            <img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/738x416.webp" alt="">
-           
-        </div>
-    </div>
+    <div class="carousel" data-flickity='{ "groupCells": true }'>
+        <div class="carousel-cell"><img src="https://is3-ssl.mzstatic.com/image/thumb/AWDRdQz0nepFpnsUNiTDuw/738x416.webp" alt=""></div>
+        <div class="carousel-cell"><img src="https://is2-ssl.mzstatic.com/image/thumb/78-I7VenST4ztZYfwMf6AQ/738x416.webp" alt=""></div>
+        <div class="carousel-cell"><img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/738x416.webp" alt=""></div>
+        <div class="carousel-cell"><img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/738x416.webp" alt=""></div>
+        <div class="carousel-cell"><img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/738x416.webp" alt=""></div>
+        <div class="carousel-cell"><img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/738x416.webp" alt=""></div>
+        <div class="carousel-cell"><img src="https://is3-ssl.mzstatic.com/image/thumb/AWDRdQz0nepFpnsUNiTDuw/738x416.webp" alt=""></div>
+        <div class="carousel-cell"><img src="https://is2-ssl.mzstatic.com/image/thumb/78-I7VenST4ztZYfwMf6AQ/738x416.webp" alt=""></div>
+        <div class="carousel-cell"><img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/738x416.webp" alt=""></div>
+        <div class="carousel-cell"><img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/738x416.webp" alt=""></div>
+        <div class="carousel-cell"><img src="https://is4-ssl.mzstatic.com/image/thumb/C7vq4me467uKBCWL8QZA6g/738x416.webp" alt=""></div>
+      </div>
+
     <br>
     <div class="hr"><hr></div>
 
     <div class="heading-element1"><p>Most Popular</p></div>
-    <div class="featured_element">
-        <div class="inner_element">
+    
+    <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" alt="">
             <img src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/738x416.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/gkWjLqLfF8Pahc6a6Udtxg/738x416.webp" alt="">
@@ -54,12 +60,13 @@
             <img src="https://is2-ssl.mzstatic.com/image/thumb/IZLh7W9XMi2iYTPqqFwRYg/738x416.webp" alt="">
            
         </div>
-    </div>
+   
     <br>
     <div class="hr"><hr></div>
     <div class="heading-element1"><p>Watch Entire Seasons</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is2-ssl.mzstatic.com/image/thumb/SEsiWD2cTDShiJqUtRPAxg/738x416.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/Tb1jarRHaWN_SFiMjZcDHw/738x416.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/kjrFHClZ3Bt-pT0MJnwdFw/738x416.webp" alt="">
@@ -72,7 +79,8 @@
     <div class="hr"><hr></div>
     <div class="heading-element1"><p>Latest Originals</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+        data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/1478x832.webp" alt="">
             <img src="https://is5-ssl.mzstatic.com/image/thumb/BG3rKYXaPe9KkpZOZUjj_w/1478x832.webp" alt="">
             <img src="https://is2-ssl.mzstatic.com/image/thumb/h3TFbeh9Dz-zmR7hMf0Jcw/1478x832.webp" alt="">
@@ -86,7 +94,8 @@
     <div class="heading-element1"><p>Included With Apple TV+</p></div>
     <p>Watch unforgettable hits as a limited-time subscriber bonus.</p>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is2-ssl.mzstatic.com/image/thumb/Features122/v4/7f/a6/73/7fa673cd-a374-f92b-39ce-d6225bc2085c/d4c433fc-e095-43b1-a773-f9dc31b61fe3.lsr/738x416.webp" alt="">
             <img src="https://is3-ssl.mzstatic.com/image/thumb/uOy_uvKZZkurSII-QkH1cg/738x416.webp" alt="">
             <img src="https://is3-ssl.mzstatic.com/image/thumb/Video113/v4/ce/7b/70/ce7b7099-6a2c-9183-0da7-40fb57571a00/Bourne_Ultimatum_3840x2160_CoverArt.lsr/738x416.webp" alt="">
@@ -99,7 +108,8 @@
     <div class="heading-element1"><p>Future Releases</p></div>
     <p>Add to Up Next now.</p>
     <div class="featured_element">
-        <div class="inner_element_id">
+        <div class="carousel"
+        data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is3-ssl.mzstatic.com/image/thumb/Features112/v4/31/30/9c/31309c13-aeee-fe56-ee48-381a4bec47fd/9230471d-171a-4347-8f1a-59267f718c32.lsr/1478x832fe.webp" alt="">
             <img src="https://is2-ssl.mzstatic.com/image/thumb/Features122/v4/28/3f/e5/283fe53f-df6c-2e78-bfdd-18508fa82a6a/db52f93f-c6cc-4e7f-aa7c-f93856a95f55.lsr/1478x832fe.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/76/95/90/76959068-90b5-4f88-c342-5db27696da8e/8f0c8afb-a007-4426-b535-0aa57f4d6777.lsr/1478x832fe.webp" alt="">
@@ -113,7 +123,8 @@
     </div>
     <div class="heading-element1"><p>Historical Dramas</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/738x416.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/Tb1jarRHaWN_SFiMjZcDHw/738x416.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/jvpbfkNAZaLIN3DZJUDX8Q/738x416.webp" alt="">
@@ -126,7 +137,8 @@
     <div class="hr"><hr></div>
     <div class="heading-element1"><p>Remarkable Women</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is3-ssl.mzstatic.com/image/thumb/CXnyehPcDHEauavhg0D79Q/738x416.webp" alt="">
             <img src="https://is3-ssl.mzstatic.com/image/thumb/3iAbZQ4pznOpDRenkvOhNA/738x416.webp" alt="">
             <img src="https://is2-ssl.mzstatic.com/image/thumb/D1SCGzM1ESBh-SIkHwcvUQ/738x416.webp" alt="">
@@ -139,7 +151,8 @@
     <div class="hr"><hr></div>
     <div class="heading-element1"><p>Soaring Musical Moments</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is2-ssl.mzstatic.com/image/thumb/le6mxqLNaXH47MHIH7stzw/738x416.webp" alt="">
             <img src="https://is3-ssl.mzstatic.com/image/thumb/cyRvgYnPlaVn3rN2SDdW1Q/738x416.webp" alt="">
             <img src="https://is5-ssl.mzstatic.com/image/thumb/owNSUO3F109RC75YDPMY7A/738x416.webp" alt="">
@@ -152,7 +165,8 @@
     <div class="hr"><hr></div>
     <div class="heading-element1"><p>Ride Along With the Stars of TV+</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is5-ssl.mzstatic.com/image/thumb/URvVdugODuaGFWJv1ukmPA/738x416.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/VDIfUtn5C9P5IZGN2h8r9w/738x416.webp" alt="">
             <img src="https://is2-ssl.mzstatic.com/image/thumb/Cr7foJGHmxwDdGygTHEdzQ/738x416.webp" alt="">
@@ -165,7 +179,8 @@
     <div class="hr"><hr></div>
     <div class="heading-element1"><p>Cuddly Critters</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+        data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is4-ssl.mzstatic.com/image/thumb/ba3Q2gHzrcpC69JvKRy_bg/738x416.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/r85VE266WcKhz9SdLwhb0A/738x416.webp" alt="">
             <img src="https://is2-ssl.mzstatic.com/image/thumb/_dJgnWG8W30_qMRZYCEx-Q/738x416.webp" alt="">
@@ -187,7 +202,8 @@
 
     <div class="heading-element1"><p>All Feature Films</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is5-ssl.mzstatic.com/image/thumb/lgskq6n1xkUI5DOyA5tWWQ/738x416.webp" alt="">
             <img src="https://is2-ssl.mzstatic.com/image/thumb/a_voEGGOjHGvUUhwrbStXQ/738x416.webp" alt="">
             <img src="https://is3-ssl.mzstatic.com/image/thumb/CXnyehPcDHEauavhg0D79Q/738x416.webp" alt="">
@@ -201,7 +217,8 @@
     
     <div class="heading-element1"><p>Emancipation Is Here</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/2a/32/dd/2a32dd38-ce88-1ba2-3652-4f06cc1f78a2/26916612-9402-47de-8edf-da6774933127.lsr/1478x832fe.webp" alt="">
             <img src="https://is3-ssl.mzstatic.com/image/thumb/Features112/v4/42/8f/e8/428fe81b-7f27-0f78-7c2e-f83c3b1578f0/531a30ee-5b9a-4953-a959-1c7e2cc537aa.lsr/1478x832fe.webp" alt="">
             <img src="https://is3-ssl.mzstatic.com/image/thumb/Features122/v4/b5/f4/a5/b5f4a514-0378-fbbf-8524-504c84f275df/d4e55c15-9bd0-4608-b740-8749953a589c.lsr/1478x832fe.webp" alt="">
@@ -216,7 +233,8 @@
      
     <div class="heading-element1"><p>All Drama Series</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is3-ssl.mzstatic.com/image/thumb/EuF6BWsgBeic_Ap2qeAGBQ/738x416.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/gkWjLqLfF8Pahc6a6Udtxg/738x416.webp" alt="">
             <img src="https://is5-ssl.mzstatic.com/image/thumb/PWsYggMXgU6kQrxaB3MZPQ/738x416.webp" alt="">
@@ -230,7 +248,8 @@
      
     <div class="heading-element1"><p>Ted Lasso: Winner of 4 Emmy® Awards</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is2-ssl.mzstatic.com/image/thumb/Features112/v4/69/26/cb/6926cb49-3cdd-7db7-69c2-ed1d86d24265/e864cc33-c756-468f-983a-c8c1c2bb1adb.lsr/1478x832fe.webp" alt="">
             <img src="https://is5-ssl.mzstatic.com/image/thumb/Features122/v4/44/f2/ac/44f2aca2-6715-4154-8bc9-ffc1e1d6689a/61a6e79a-db85-4774-b3e9-243c554f899d.lsr/1478x832fe.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/Features122/v4/f1/0c/a2/f10ca2b9-225f-d9bb-afeb-d5a21846cf75/0da18062-dcc4-45f5-855d-d3f45a6653cb.lsr/1478x832fe.webp" alt="">
@@ -244,7 +263,8 @@
     
     <div class="heading-element1"><p>All Comedy Series</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is2-ssl.mzstatic.com/image/thumb/GT66HoV8VJL1IZwaqos_TQ/738x416.webp" alt="">
             <img src="https://is3-ssl.mzstatic.com/image/thumb/Auxgchkiva7ORjAQy9DP6w/738x416.webp" alt="">
             <img src="https://is5-ssl.mzstatic.com/image/thumb/xq9mcYu6NXUtGcDJMMfc5w/738x416.webp" alt="">
@@ -258,7 +278,8 @@
 
     <div class="heading-element1"><p>Nonfiction Films & Series</p></div>
     <div class="featured_element">
-        <div class="inner_element_id">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is3-ssl.mzstatic.com/image/thumb/Features122/v4/40/a5/6a/40a56a15-9da2-967c-d69b-a5052bb404c5/89d54294-ded9-4ccc-859b-d5c5442c7682.lsr/1478x832fe.webp" alt="">
             <img src="https://is4-ssl.mzstatic.com/image/thumb/Features116/v4/f8/7b/74/f87b74f9-ef7d-66c7-de75-6f621b9b800a/8c24d846-b3ad-4283-8424-4c055824358b.lsr/1478x832fe.webp" alt="">
             <img src="https://is5-ssl.mzstatic.com/image/thumb/Features122/v4/50/62/c0/5062c0ba-9947-951a-9746-c2a8a6bbcb1d/3f5b9e26-ff9a-417a-aa68-88b07170a907.lsr/1478x832fe.webp" alt="">
@@ -270,7 +291,8 @@
 
     <div class="heading-element1"><p>All Nonfiction Series</p></div>
     <div class="featured_element">
-        <div class="inner_element">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is5-ssl.mzstatic.com/image/thumb/nnWkHXH4wyIt0sZovHx0tA/738x416.webp" alt="">
             <img src="https://is4-ssl.mzstatic.com/image/thumb/rbA884KpTpFowJZ9t08rhw/738x416.webp" alt="">
             <img src="https://is1-ssl.mzstatic.com/image/thumb/vPnF3gIE_xEMoXPI1SyluA/738x416.webp" alt="">
@@ -284,7 +306,8 @@
 
     <div class="heading-element1"><p>Major League Basebal</p></div>
     <div class="featured_element">
-        <div class="inner_element_id">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is2-ssl.mzstatic.com/image/thumb/Features116/v4/fe/30/99/fe30991b-023f-65db-6c47-9bcaacab5977/90310982-ea94-40a5-81e4-9d8de34c261e.lsr/1478x832fe.webp" alt="">
             <img src="https://is2-ssl.mzstatic.com/image/thumb/Features112/v4/20/4d/54/204d5468-4dd0-960f-88c3-031c99648487/b939bcd0-b9b7-4b96-ad55-58eb36b6c3dc.lsr/1478x832fe.webp" alt="">
             <img src="https://is4-ssl.mzstatic.com/image/thumb/Features112/v4/37/6d/e1/376de15e-b2e5-d9fd-54b6-77c40174c7f7/2622dfff-7a4e-4aaf-8d15-02926ea63f34.lsr/1478x832fe.webp" alt="">
@@ -296,7 +319,8 @@
 
     <div class="heading-element1"><p>Kids and Family</p></div>
     <div class="featured_element">
-        <div class="inner_element_id">
+        <div class="carousel"
+    data-flickity='{ "imagesLoaded": true, "percentPosition": false }'>
             <img src="https://is5-ssl.mzstatic.com/image/thumb/Features112/v4/16/8f/da/168fda4e-a572-0e65-6d21-a95a0341f1e8/0a911d28-6df6-4e85-a234-4aa9e9b3c219.lsr/1478x832fe.webp" alt="">
             <img src="https://is5-ssl.mzstatic.com/image/thumb/Features112/v4/a7/e2/f7/a7e2f78d-6be4-4810-989e-cef0148e3517/c8b76984-dbbf-4ad4-8bff-f94a0bd6581a.lsr/1478x832fe.webp" alt="">
             <img src="https://is2-ssl.mzstatic.com/image/thumb/Features112/v4/ea/8b/69/ea8b69cd-2525-3e95-8f03-d81e0a9be25a/c0be3d33-1c8c-4c6b-9fc5-f11cefff57c0.lsr/1478x832fe.webp" alt="">
@@ -321,6 +345,6 @@
     <div class="hr"><hr></div>
 </body>
 <script src="main.js"></script>
-
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 </html>
