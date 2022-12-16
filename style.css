@@ -45,7 +45,7 @@ nav li{
     cursor: pointer;
 }
 .first_box{
-   position: relative;
+   position:relative;
    max-width: 500px;
    padding-left: 50px;
    margin-top: 350px;
@@ -81,20 +81,25 @@ nav li{
 .featured_element{
 
  margin: auto; 
- 
 }
-.featured_element .inner_element{
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: auto;
-    margin-top: 12px;
-    padding: 0 20px;
-    gap: 20px;
-    cursor: pointer;
-}
-
-.inner_element img{
+.carousel-cell {
+    width: 23%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+    background-image: url("https://is3-ssl.mzstatic.com/image/thumb/AWDRdQz0nepFpnsUNiTDuw/738x416.webp");
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 200px;
+    
+  }
+ .inner_element img{
     display: block;
     width: 100%;  
     border-radius: 12px;
